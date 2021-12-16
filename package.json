@@ -1,0 +1,27 @@
+{
+  "name": "bb-code-patcher",
+  "version": "1.0.0",
+  "description": "Service to patch BB repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitalyGitDev/bitbucket-patcher.git"
+  },
+  "author": "KlepkaVitaliy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitalyGitDev/bitbucket-patcher/issues"
+  },
+  "homepage": "https://github.com/VitalyGitDev/bitbucket-patcher#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "simple-git": "^2.48.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0"
+  }
+}
